@@ -30,16 +30,18 @@ window.addEventListener('DOMContentLoaded', () => {
             lik = 'sigurd_normal';
           }
           let hybname = document.querySelector(".comment-name::after")
-          if(hybname !== null){
+          if(hybname != null){
             hybname = 'Using '+hybname.textContent+' as Hypebot!'
           } else{
             hybname = 'Hypebot is thinking..'
           }
-          let m;
+          let m = false;
           if(datee.getMilliseconds() == 6969){
-            m = true
+            console.log(m);
+            m = true;
+            console.log(m);
           }
-          if(m === false){
+          if(m == false){
             rpc.setActivity({
               details: 'Writing with '+mname+'!',
               state: hybname,
@@ -59,6 +61,7 @@ window.addEventListener('DOMContentLoaded', () => {
               smallImageText: 'A wild goose has appeared!',
               instance: false,
             });
+            m = false;
           }
           setTimeout(check_presense, 16000);
           return;
