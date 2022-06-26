@@ -3,7 +3,7 @@
 
 ### Instructions:
   1. If you don't already have it, install <a href="https://nodejs.org/en/download/">Node.js</a>
-  2. If you also don't already have it, install <a href="https://git-scm.com/downloads">Git</a>
+  2. If you also don't already have it (primarily if you want an auto-update), install <a href="https://git-scm.com/downloads">Git</a>
   3. Run 'install.bat' (double click or right click --> open)
   4. Wait for it to finish installing.
   5. Run 'start.bat'
