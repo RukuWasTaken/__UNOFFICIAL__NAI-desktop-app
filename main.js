@@ -15,8 +15,9 @@ function createWindow () {
       contextIsolation: false
     }
   })
+  mainWindow.maximize();
   // and load the index.html of the app.
-  mainWindow.loadURL('https://novelai.net')
+  mainWindow.loadURL('https://novelai.net');
   mainWindow.webContents.on('did-finish-load', ()=>{
     console.log('loaded')
   });
