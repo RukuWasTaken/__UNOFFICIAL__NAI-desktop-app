@@ -3,7 +3,7 @@
 window.addEventListener('DOMContentLoaded', () => {
   const replaceText = (selector, text) => {
     const DiscordRPC = require('discord-rpc')
-    const scopes = ['rpc', 'rpc.api', 'messages.read'];
+    // const sps = ['rpc', 'rpc.api', 'messages.read', 'rpc.activities.write', 'rpc.notifications.read'];
     const rpc = new DiscordRPC.Client({ transport: 'ipc' });
     DiscordRPC.register('990397227543461979');
     rpc.on('ready', () => {
