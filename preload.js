@@ -41,7 +41,7 @@ window.addEventListener('DOMContentLoaded', () => {
             m = true;
             console.log(m);
           }
-          if(m == false){
+          if(m === false){
             rpc.setActivity({
               details: 'Writing with '+mname+'!',
               state: hybname,
